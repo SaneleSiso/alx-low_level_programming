@@ -1,11 +1,13 @@
 #include <stdio.h>
-/*
- * main - the entry point to the c program.
- * return(0) - when main returns, the program stops
+
+/**
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
