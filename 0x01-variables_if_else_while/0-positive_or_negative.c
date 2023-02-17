@@ -4,7 +4,7 @@
 
 /*
  * main - entry point
- * description - prints whether the number stored in 
+ * description - prints whether the number stored in
  * the variable n is positive or negative.
  * return 0 if success
  */
@@ -18,9 +18,9 @@ int main(void)
 	printf("%d ", n);
 	if(n < 0)
 		printf("is negative\n");
-        else if(n > 0)
+       	else if(n > 0)
 		printf("is positive\n");
 	else
-		printf("is negative\n");
+		printf("is zero\n");
 	return (0);
 }
