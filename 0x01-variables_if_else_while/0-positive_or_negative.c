@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+
+/**
  * Main - entry point
  * Description - prints whether the number stored in
  * the variable n is positive or negative.
@@ -13,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	/* My code */
 	printf("%d ", n);
 	if (n < 0)
 		printf("is negative\n");
