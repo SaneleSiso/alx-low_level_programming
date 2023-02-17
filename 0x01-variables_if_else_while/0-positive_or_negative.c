@@ -1,12 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * Main - entry point
- * Description - prints whether the number stored in
- * the variable n is positive or negative.
- * return 0 if success
+ * main - Entry point
+ * Return: 0 (Success)
  */
 int main(void)
 {
