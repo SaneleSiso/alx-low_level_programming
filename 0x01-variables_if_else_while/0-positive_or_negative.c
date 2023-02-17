@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /*
  * Main - entry point
  * Description - prints whether the number stored in
