@@ -18,7 +18,7 @@ int main()
 				digit[1] = j + '0';
 				digit[2] = k + '0';
 				digit[3] = '\0';
-				putchar(digit);
+				putchar(output[digit]);
 			}
 		}
 	}
