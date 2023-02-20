@@ -7,18 +7,19 @@ int main(void)
 {
 	int first, last;
 
-	for (first = '0'; first < '9'; first++)
+	for (first = '0'; first <= '98'; first++)
 	{
-		for (last = first + 1; last <= '9'; last++)
+		for (last = first + 1; last <= '99'; last++)
 		{
-			if (first != last)
-			{
-				putchar(first);
-				putchar(last);
-				if (first == '8' && last == '9')
-				continue;
+			putchar((first / 10) + '0);
+			putchar((p % 10) + '0');
 			putchar(' ');
-			}
+			putchar((last / 10) + '0');
+			putchar((last % 10) + '0');
+			if (first == '98' && last == '99')
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
