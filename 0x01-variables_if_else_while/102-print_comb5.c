@@ -11,12 +11,12 @@ int main(void)
 	{
 		for (last = first + 1; last <= 99; last++)
 		{
-			putchar((first / 10) + '0);
+			putchar((first / 10) + '0');
 			putchar((first % 10) + '0');
 			putchar(' ');
 			putchar((last / 10) + '0');
 			putchar((last % 10) + '0');
-			if (first == '98' && last == '99')
+			if (first == 98 && last == 99)
 				continue;
 			putchar(',');
 			putchar(' ');
