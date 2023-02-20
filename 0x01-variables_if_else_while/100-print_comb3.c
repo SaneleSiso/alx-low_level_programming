@@ -9,7 +9,7 @@ int main(void)
 
 	for (first = '0'; first < '9'; first++)
 	{
-		for (last = first+ 1; last <= '9'; last++)
+		for (last = first + 1; last <= '9'; last++)
 		{
 			if (first != last)
 			{
