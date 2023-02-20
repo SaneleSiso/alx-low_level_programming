@@ -13,7 +13,7 @@ int main(void)
 		{
 			if (first != last)
 			{
-				putchar((first);
+				putchar(first);
 				putchar(last);
 				if (first == '8' && last == '9')
 				continue;
