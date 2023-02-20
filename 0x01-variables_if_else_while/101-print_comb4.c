@@ -3,24 +3,29 @@
  * main - Entry point
  * Return: 0 (Success)
  */
-int main()
+int main(void)
 {
-	int digit[4];
 	int i, j, k;
 	
-	for (i = 0; i < 8; i++)
+	for (i = '0'; i < '9'; i++)
 	{
-		for (j = i + 1; j < 9; j++)
+		for (j = i + 1; j < '9'; j++)
 		{
-			for (k = j + 1; k < 10; k++)
+			for (k = j + 1; k < '9'; k++)
 			{
-				digit[0] = i + '0';
-				digit[1] = j + '0';
-				digit[2] = k + '0';
-				digit[3] = '\0';
-				putchar(output[digit]);
+				if ((i != j) != k)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i == '7' && j == '8')
+						continue;
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
+	putchar('\n');
 	return 0;
 }
