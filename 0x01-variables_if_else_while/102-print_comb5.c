@@ -7,12 +7,12 @@ int main(void)
 {
 	int first, last;
 
-	for (first = '0'; first <= '98'; first++)
+	for (first = 0; first <= 98; first++)
 	{
-		for (last = first + 1; last <= '99'; last++)
+		for (last = first + 1; last <= 99; last++)
 		{
 			putchar((first / 10) + '0);
-			putchar((p % 10) + '0');
+			putchar((first % 10) + '0');
 			putchar(' ');
 			putchar((last / 10) + '0');
 			putchar((last % 10) + '0');
