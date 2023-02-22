@@ -28,7 +28,7 @@ int main(void)
          }
 
         first = second;
-        second = next
+        second = next;
         next = first + second; 
         count++;
     }
