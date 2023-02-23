@@ -4,6 +4,7 @@
  * print_square - Prints a squareusing the character #.
  * @size: The size of the square.
  */
+
 void print_square(int size)
 {
 	int i, j;
@@ -15,7 +16,7 @@ void print_square(int size)
 			for (j = 0; j < size; j++)
 				_putchar('#');
 
-			if (j == size - 1)
+			if (i == size - 1)
 				continue;
 			_putchar('\n');
 		}
