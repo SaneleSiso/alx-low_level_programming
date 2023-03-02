@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncpy - Concatenates two strings
+ * _strncat - Concatenates two strings
  * @dest: input value to be concatenated
  * @src: input value to be concatenated
  * @n: The number of bytes from src to be appended to dest.
