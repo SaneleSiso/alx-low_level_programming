@@ -6,7 +6,7 @@
  * Return: A pointer to the encoded string.
  */
 
-char *leet(char *str)
+char *leet(char *n)
 {
 	int i, j;
 
