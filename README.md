@@ -8,3 +8,5 @@ This repository contains my work on C programming
 6. C - More pointers, arrays and strings
 7. C - Even more pointers, arrays and strings
 8. C - Recursion
+9. C - Static libraries
+0A. C - argc, argv
