@@ -10,3 +10,4 @@ This repository contains my work on C programming
 8. C - Recursion
 9. C - Static libraries
 0A. C - argc, argv
+0B. C - malloc, free
