@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * free_grid - frees an array
- * @grid the array to be freed
+ * @grid: the array to be freed
  * @height: the height of the array
  * Return: void
  */
