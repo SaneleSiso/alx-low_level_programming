@@ -9,5 +9,8 @@ This repository contains my work on C programming
 7. C - Even more pointers, arrays and strings
 8. C - Recursion
 9. C - Static libraries
-0A. C - argc, argv
-0B. C - malloc, free
+0x0A. C - argc, argv
+0x0B. C - malloc, free
+0x0C. C - More malloc, free
+0x0D. C - Preprocessor
+0x0E. C - Structures, typedef
