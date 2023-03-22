@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int bytes, i;
+	int bytes, i = 0;
 	unsigned char *func_ptr;
 
 	if (argc != 2)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 	func_ptr = (unsigned char *)main;
-	i = 0;
+
 	if (bytes > 0)
 	{
 		while (i < (bytes - 1))
