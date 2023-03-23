@@ -1,6 +1,8 @@
 #ifndef _VARIADIC_FUNCTIONS_H_
 #define _VARIADIC_FUNCTIONS_H_
 #include <stdarg.h>
+#include <stdio.h>
+
 /**
  * struct print - print type with corresponding print function
  * @t: print type
