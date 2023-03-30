@@ -1,9 +1,11 @@
-#include "lists.h"
+#include <stdio.h>
+
 /**
  * mystartupfunction - a function that will run before the main function is executed
  *
  * Return: void
  */
+
 void __attribute__ ((constructor)) mystartupfunction(void)
 {
 	/* Apply the constructor attribute to myStartupFun() so that it */
